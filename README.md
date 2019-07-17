@@ -55,7 +55,7 @@ File -> Import -> Maven -> Existing Maven project
 
 Run the application main method by right clicking on it and choosing `Run As -> Java Application` or `Run As -> Spring Boot App`.
 
-####Login to Guestbook Sample Application
+#### Login to Guestbook Sample Application
 
 1) Pre configured user are provided inside sqlscript with following roles, which can be used for accessing the application.  
 
@@ -65,8 +65,7 @@ rajiv	| test123 | [ROLE_USER]
 ansh	| test123 | [ROLE_ADMIN]   
 ayush	| test123 | [ROLE_NA]   
 ```
-
-#####Details of Usage and Print screen is provided inside doc/guestbook.docx   
+##### Details of Usage and Print screen is provided inside doc/guestbook.docx   
 
 <br><br>
 
