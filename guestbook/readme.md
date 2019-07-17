@@ -3,7 +3,7 @@
 Guestbook is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
 
 ```
-Rajiv - git clone https://github.com/spring-projects/spring-petclinic.git
+git clone https://github.com/rajivit53/ProjectDemo.git
 cd guestbook
 ./mvnw package
 java -jar target/*.jar
@@ -18,7 +18,7 @@ Or you can run it from Maven directly using the Spring Boot Maven plugin. If you
 You can then access guestbook here: http://localhost:8080/
 
 ## In case you find a bug/suggested improvement for Guestbook
-Rajiv - Our issue tracker is available here: https://github.com/spring-projects/spring-petclinic/issues
+Our issue tracker is available here: https://github.com/rajivit53/ProjectDemo/blob/master/guestbook/issuetracker
 
 
 ## Database configuration
@@ -46,7 +46,7 @@ The following items should be installed in your system:
 
 1) On the command line
 ```
-Rajiv - git clone https://github.com/spring-projects/spring-petclinic.git
+git clone https://github.com/rajivit53/ProjectDemo.git
 ```
 2) Inside Eclipse or STS
 ```
