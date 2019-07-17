@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<title>Save Entry</title>
+</head>
+
+<body>
+
+	<div class="container">
+		<div style="height:25px text-align:center; margin-top: 50px"  class="card  text-white col-xl-8">
+		<div class="card-header bg-info"><h4>Add New Entry</h4></div>
+			<div class="card-body">
+				<p class="h4 col-xl-8">Save Entry</p>
+				<div th:if="${message}">
+				    <h4 style="color : black" th:text="${message}"/>
+				</div>
+				<form action="#" th:action="@{/save}" method="POST" enctype="multipart/form-data">
+					<div class="form-group">
+						 <textarea name="entry" id="entry" class="form-control col-xl-8" placeholder="Add new entry here."></textarea>
+						 <br>
+						 <div>
+						 	<input type="file" name="file" class="form-control-file col-xl-8 bg-info" id="file">
+						 	<h5 style="color:#069">(Image size should not exceed 500Kb)</h5>
+						 </div>
+						 <br>
+						 <button type="submit" class="btn btn-primary col-2">Save</button>
+					 </div>
+				</form>
+			
+				<hr>
+				<a th:href="@{/}">Back to Entry List</a>
+			</div>
+		</div>
+
+	</div>
+	
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
